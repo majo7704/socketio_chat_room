@@ -1,0 +1,28 @@
+{
+  "name": "socketio_chat_room",
+  "version": "1.0.0",
+  "description": "Realtime chat app created with socketio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majo7704/socketio_chat_room.git"
+  },
+  "author": "Jola Matujewicz",
+  "license": "JM",
+  "bugs": {
+    "url": "https://github.com/majo7704/socketio_chat_room/issues"
+  },
+  "homepage": "https://github.com/majo7704/socketio_chat_room#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
